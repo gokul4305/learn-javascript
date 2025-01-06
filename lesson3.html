@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //methods for date objects//
+      let x;
+      let d = new Date();
+
+      //initialize date object to d variable//
+      x = d.toString();
+
+      x = d.getTime();
+      x = d.valueOf();
+      console.log(x);
+      x = d.getFullYear();
+      x = d.getMonth();
+      x = d.getDate();
+      x = d.getDay();
+      x = d.getHours();
+      x = d.getMinutes();
+
+      console.log(x);
+      x = `${d.getFullYear()}-${d.getMonth()}-${d.getDate()} ${d.getHours()}:${d.getMinutes()}`;
+      console.log(x);
+    </script>
+  </body>
+</html>
