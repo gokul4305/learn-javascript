@@ -1,0 +1,34 @@
+// array and object// //arrray are special type of objects and a data structure
+in js which stores multiple values//
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //array literals//
+      const number = [12, 45, 69, 56];
+      // array contructors//
+      const Fruit = new Array("apple", "grape", "orange");
+      console.log(Fruit);
+      const mixed = [12, "green", true, null];
+
+      x = number[0];
+      console.log(x);
+      x = number[0] + number[3];
+      console.log(x);
+      x = `my fav fruit is  an ${Fruit[1]}`;
+      console.log(x);
+      x = number.length;
+      Fruit[2] = "pear";
+      // Fruit.length = 2;
+      Fruit[3] = "strawberry";
+      x = Fruit;
+      console.log(x);
+      Fruit.length = 2;
+    </script>
+  </body>
+</html>
