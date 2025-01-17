@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let x;
+      const fruit = ["apple", "pear", "orange"];
+      const berries = ["strawberry", "blueberry", "rasbeery"];
+      fruit.push(berries);
+      x = fruit[3][2];
+      console.log(x);
+      const allFruits = [fruit, berries];
+      x = allFruits[0][2];
+      console.log(x);
+      x = fruit.concat(berries);
+      console.log(x);
+    </script>
+  </body>
+</html>

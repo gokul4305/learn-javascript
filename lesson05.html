@@ -27,6 +27,23 @@
       //reverse the ordr of the array
       arr.unshift();
       console.log(arr);
+      // to check the number is there we use include fuction
+      x = arr.includes(20);
+      console.log(x);
+      x = arr.includes(95);
+      console.log(x);
+      //index value of the element
+      x = arr.indexOf(95);
+      console.log(x);
+      //slice method is used to cut the array
+      x = arr.slice(0, 3);
+      console.log(x);
+      //splice method is used to add or remove the element in the array
+      x = arr.splice(1, 2);
+      console.log(x);
+      console.log(arr);
+      x = arr.splice(1, 4).reverse().toString().charAt(0);
+      console.log(x);
     </script>
   </body>
 </html>
